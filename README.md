@@ -2,5 +2,6 @@
 файлы логи крашей
 файлы тераформа json
 CLI конфигурационные файлы
+Hi netology
 # devops-netology
 
