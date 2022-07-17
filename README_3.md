@@ -1,4 +1,6 @@
-1)
+01)
+Добавить переменную $EXTRA_OPTS
+
 vagrant@vagrant:~$ cat /etc/systemd/system/node_exporter.service 
 [Unit]
 Description=Prometheus Node Exporter
@@ -8,7 +10,7 @@ After=network-online.target
 User=node_exporter
 Group=node_exporter
 Type=simple
-ExecStart=/usr/local/bin/node_exporter
+ExecStart=/usr/local/bin/node_exporter $EXTRA_OPTS
 [Install]
 WantedBy=multi-user.target
 
