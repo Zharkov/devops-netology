@@ -6,8 +6,10 @@ lo               UNKNOWN        00:00:00:00:00:00 <LOOPBACK,UP,LOWER_UP>
 enp2s0           DOWN           a8:1e:84:43:5f:d9 <NO-CARRIER,BROADCAST,MULTICAST,UP> 
 wlp3s0           UP             90:cd:b6:7a:d8:bf <BROADCAST,MULTICAST,UP,LOWER_UP> 
 
-2) Neighbor Discovery Protocol, NDP
-имеется пакет ndptool, команты monitor и send
+2)
+Протокол LLDP.
+Пакет lldpd.
+Команда lldpctl.
 
 3) используется технология VLAN. в Ubuntu имеется пакет vlan. 
 Пример: vconfig add eth0 5 (добавить vlan с ID 5 для интерфейса eth0)
